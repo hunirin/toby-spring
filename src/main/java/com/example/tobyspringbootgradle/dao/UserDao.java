@@ -9,8 +9,9 @@ import java.util.Map;
 import static java.lang.System.getenv;
 
 public class UserDao {
-//    SimpleConnectionMaker connectionMaker = new SimpleConnectionMaker();
+
     ConnectionMaker connectionMaker;
+
     public UserDao() {
         this.connectionMaker = new DConnectionMaker();
     }
